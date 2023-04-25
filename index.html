@@ -8,5 +8,28 @@
   	  <title>Etch-A-Sketch</title>
    </head>
     <body class="body">
+      <main id="main" class="main">
+        
+        <section class="section__header" id="section__header">
+          <h1 class="heading__one">Etch-A-Sketch</h1>
+          <p>Pixel Size</p>
+          <div class="contianer__input">
+            <input type="number" id="size" class="input-size" placeholder="pixels" min="2" max="100">
+            <button class="btn" id="btn-size">Set Size</button>
+          </div>
+          <h2 class="grid-size" id="grid-size"></h2>
+        </section>
+        
+        <section id="section__one" class="section__grid"></section>
+        
+        <div class="btn-container">
+          <button class="btn btn-black" id="black">Black</button>
+          <button class="btn btn-white" id="white">White</button>
+          <button class="btn btn-random" id="random"><span class="random-text">Random</span></button>
+          <button class="btn " id="erase">Erase</button>
+          <button class="btn" id="reset">Clear</button>
+        </div>
+      
+      </main>
     </body>
   </html>
