@@ -6,6 +6,8 @@ See the different designs you can on this Etch-A-Sketch built using HTML, CSS, a
 
 [Motivation](#Motivation)
 
+[Screenshot](#Screenshot)
+
 [Built With](#built-with)
 
 [License](#License)
@@ -19,6 +21,11 @@ The Etch-A-Sketch is displayed in a 16x16 grid created using JavaScript. The eve
 
 ## Motivation
 I completed this project as part of the Odin Project Foundations Course. I started that course to practice my JavaScript skills. This project gave me the opportunity to practice those skills and combine them with HTML and CSS to create a web application that changes based on user input.
+
+## Screenshot
+![My Image](image_blank.png)
+
+![My Image](image_drawing.png)
 
 ## Built With
 - HTML
