@@ -11,7 +11,7 @@
 
 .main{
 	border: 1px solid #aa2d31;
-	height: 750px;
+	height: 775px;
 	width: 800px;
 	margin: 5vh auto;
 	background: #b50114;
@@ -57,6 +57,17 @@
 	cursor: pointer;
 }
 
+.contianer__color{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title__color{
+	margin-top: 0;
+	margin-bottom: 14px;
+}
+
 .btn-container{
 	display: flex;
 	flex-direction: row;
@@ -100,7 +111,7 @@
 }
 
 .random-text{
-    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
-      -webkit-background-clip: text;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;	
 }
